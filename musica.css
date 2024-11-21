@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002f6c; /* Azul Boca */
+    color: #F7A600; /* Amarillo Boca */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F7A600;
+    color: #002f6c;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #002f6c;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    position: static;
+}
+
+.sidebar {
+    background-color: #002f6c;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar h2 {
+    color: #F7A600;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #F7A600;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #ffffff;
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    padding-right: 100px;
+}
+
+footer {
+    background-color: #F7A600;
+    color: #002f6c;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

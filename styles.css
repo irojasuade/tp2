@@ -1,0 +1,109 @@
+/* Barra de navegación */
+nav {
+    background-color: #F7A600;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #002f6c;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002f6c; /* Azul Boca */
+    color: #f4c842; /* Amarillo Boca */
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: #F7A600;
+    color: #002f6c;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #F7A600;
+    color: #002f6c;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #F7A600;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th, td, img{
+    width: 100px;
+}
+button {
+    background-color: #F7A600;
+    color: #002f6c;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #002f6c;
+    color: #F7A600;
+}
+
+p, a {
+  color: white;
+}
+
+.escudo {
+   text-align: center;
+   height: auto;
+}
+
+
+.escudo img {
+   max-width: 200px;
+   height: auto;
+}
+
+ul, li {
+    text-align: center;
+    list-style-type: none;
+  }
